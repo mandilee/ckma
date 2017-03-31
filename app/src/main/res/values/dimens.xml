@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="app_bar_height">250dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="text_size">16dp</dimen>
+    <dimen name="company_text_size">20sp</dimen>
+    <dimen name="horizontal_rule_height">1dp</dimen>
+    <dimen name="horizontal_rule_margin">10dp</dimen>
+</resources>

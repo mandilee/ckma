@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CKMA</string>
+    <string name="company_long">Cougar Ki Martial Arts</string>
+    <string name="facebook_url">https://www.facebook.com/cougarkimartialarts</string>
+
+    <string name="karate_birthday_parties_title">Birthday Parties</string>
+    <string name="karate_birthday_parties_text">A special kind of martial arts lesson where the birthday VIP will be Sensei for the day! Fun, games, prizes and basic FUNdamentals such as discipline, respect, teamwork and a positive attitude!  £20 room hire, then from £7 a head.</string>
+
+    <string name="private_tuition_title">Private Tuition</string>
+    <string name="private_tuition_text">Private one-to-one and private group tuition is available on request and pre-arrangement.  Private sessions can be designed around your needs. From £15 per hour.</string>
+
+    <string name="background_title">Background</string>
+    <string name="background_text">Cougar Ki Martial Arts was founded in 2011 by Daniel Lancaster Sensei (4th Dan) who is currently the Chief Instructor.  He is a recognised E.K.O National Coach with over 25 years experience in martial arts.</string>
+    <string name="location_text">2 Hertford Street \nAshton-under-Lyne \nEngland, U.K.</string>
+    <string name="company_email">cmka@mandilee.co.uk</string>
+    <string name="email_subject">CMKA Information Request</string>
+    <string name="no_email_clients">There are no email clients installed.</string>
+    <string name="no_browsers">There are no browsers installed.</string>
+    <string name="send_mail">Send mail…</string>
+    <string name="c_k_m_a_facebook">C.K.M.A Facebook</string>
+    <string name="lessons_title">Lessons</string>
+    <string name="lessons_text">Karate lessons for Juniors, Seniors and Families; Filipino martial arts; Self Defence seminars, and much more.</string>
+</resources>

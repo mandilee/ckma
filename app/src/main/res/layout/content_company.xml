@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="uk.co.mandilee.ckma.CompanyActivity"
+    tools:showIn="@layout/activity_company">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:orientation="vertical">
+
+        <!-- Location -->
+        <TextView
+            style="@style/company_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/company_long"/>
+
+        <TextView
+            style="@style/detail_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/location_text"/>
+
+        <!-- Contact -->
+        <ImageButton
+            android:id="@+id/facebook_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/c_k_m_a_facebook"
+            android:scaleType="centerCrop"
+            android:src="@drawable/facebook"/>
+
+        <View style="@style/horizontalRule"/>
+
+        <!-- Background -->
+        <TextView
+            style="@style/detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/background_title"/>
+
+        <TextView
+            style="@style/detail_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/background_text"/>
+
+        <View style="@style/horizontalRule"/>
+
+        <!-- Lessons -->
+        <TextView
+            style="@style/detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lessons_title"/>
+
+        <TextView
+            style="@style/detail_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lessons_text"/>
+
+        <View style="@style/horizontalRule"/>
+
+        <!-- Karate Birthday Parties -->
+        <TextView
+            style="@style/detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/karate_birthday_parties_title"/>
+
+        <TextView
+            style="@style/detail_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/karate_birthday_parties_text"/>
+
+        <View style="@style/horizontalRule"/>
+
+        <!-- Private Tuition -->
+        <TextView
+            style="@style/detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/private_tuition_title"/>
+
+        <TextView
+            style="@style/detail_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/private_tuition_text"/>
+
+        <View style="@style/horizontalRule"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
