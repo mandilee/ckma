@@ -2,6 +2,7 @@
     <string name="app_name">CKMA</string>
     <string name="company_long">Cougar Ki Martial Arts</string>
     <string name="facebook_url">https://www.facebook.com/cougarkimartialarts</string>
+    <string name="website_url">http://ckma.webs.com/</string>
 
     <string name="karate_birthday_parties_title">Birthday Parties</string>
     <string name="karate_birthday_parties_text">A special kind of martial arts lesson where the birthday VIP will be Sensei for the day! Fun, games, prizes and basic FUNdamentals such as discipline, respect, teamwork and a positive attitude!  £20 room hire, then from £7 a head.</string>
@@ -20,4 +21,6 @@
     <string name="c_k_m_a_facebook">C.K.M.A Facebook</string>
     <string name="lessons_title">Lessons</string>
     <string name="lessons_text">Karate lessons for Juniors, Seniors and Families; Filipino martial arts; Self Defence seminars, and much more.</string>
+    <string name="family_class">Family Classes</string>
+    <string name="family_class_details">Family classes are our most popular. \nThey run on Wednesdays and Fridays, from 6pm to 7:30pm.</string>
 </resources>

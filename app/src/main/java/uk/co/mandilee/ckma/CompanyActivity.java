@@ -36,19 +36,22 @@ public class CompanyActivity extends AppCompatActivity {
                 }
             }
         });
+
         ImageButton facebook = (ImageButton) findViewById(R.id.facebook_button);
         facebook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.facebook_url)));
-                try {
-                    startActivity(browserIntent);
-                } catch (android.content.ActivityNotFoundException ex) {
-                    Toast.makeText(CompanyActivity.this, R.string.no_browsers, Toast.LENGTH_SHORT).show();
-                }
+                openBrowser(getString(R.string.facebook_url));
             }
         });
 
+        ImageButton website = (ImageButton) findViewById(R.id.website_button);
+        website.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openBrowser(getString(R.string.website_url));
+            }
+        });
 
         /*
          * grab the collapsing layout so we can show/hide the title
@@ -84,5 +87,14 @@ public class CompanyActivity extends AppCompatActivity {
         });
     }
 
+
+    public void openBrowser(String url) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.website_url)));
+        try {
+            startActivity(browserIntent);
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(CompanyActivity.this, R.string.no_browsers, Toast.LENGTH_SHORT).show();
+        }
+    }
 
 }

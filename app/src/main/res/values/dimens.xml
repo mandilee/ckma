@@ -7,4 +7,5 @@
     <dimen name="company_text_size">20sp</dimen>
     <dimen name="horizontal_rule_height">1dp</dimen>
     <dimen name="horizontal_rule_margin">10dp</dimen>
+    <dimen name="square_button_size">60dp</dimen>
 </resources>

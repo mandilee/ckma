@@ -31,15 +31,25 @@
             android:text="@string/location_text"/>
 
         <!-- Contact -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
         <ImageButton
             android:id="@+id/facebook_button"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="@dimen/square_button_size"
+            android:layout_height="@dimen/square_button_size"
             android:layout_gravity="center"
             android:contentDescription="@string/c_k_m_a_facebook"
             android:scaleType="centerCrop"
             android:src="@drawable/facebook"/>
 
+            <ImageButton
+                android:id="@+id/website_button"
+                android:layout_width="@dimen/square_button_size"
+                android:layout_height="@dimen/square_button_size"
+                android:src="@drawable/ic_website"/>
+        </LinearLayout>
         <View style="@style/horizontalRule"/>
 
         <!-- Background -->
@@ -54,6 +64,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/background_text"/>
+
+        <View style="@style/horizontalRule"/>
+
+        <!-- Family Classes -->
+        <TextView
+            style="@style/detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/family_class"/>
+
+        <TextView
+            style="@style/detail_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/family_class_details"/>
 
         <View style="@style/horizontalRule"/>
 
